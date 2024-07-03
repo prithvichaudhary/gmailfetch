@@ -1,9 +1,11 @@
+#day3 Of Daily Python Fun Project Prithvi Chaudhary
 # Importing libraries
 import imaplib, email
 
 user = 'USER_EMAIL_ADDRESS'
 password = 'USER_PASSWORD'
 imap_url = 'imap.gmail.com'
+
 
 # Function to get email content part i.e its body part
 def get_body(msg):
